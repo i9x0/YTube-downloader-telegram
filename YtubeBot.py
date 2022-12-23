@@ -7,7 +7,7 @@ from telegram.ext.filters import Filters
 from pytube import YouTube
 import os
 import datetime
-updater = Updater("5072020677:AAGiXholp0y1e5Yp4aTAreXkEH2fjbsL2cA",use_context=True)
+updater = Updater("Token Here",use_context=True)
 try:
  def start(update: Update, context: CallbackContext): 
     x= update.message.text
