@@ -22,7 +22,7 @@ try:
     file.write("Time:"+str(time)+"\n")
     file.write("username:"+str(user)+"\n")
     file.write("ID:"+str(id)+"\n")
-    file.write("Massage:"+x+"\n")
+    file.write("Massage:"+str(x)+"\n")
 
     file.close()
  def unknown(update: Update, context: CallbackContext):
@@ -34,7 +34,7 @@ try:
     file.write("Time:"+str(time)+"\n")
     file.write("username:" +str(user)+"\n")
     file.write("ID:"+str(id)+"\n")
-    file.write("link:"+link+"\n")
+    file.write("link:"+str(link)+"\n")
     file.close()
     update.message.reply_text("انتظر ...")
     try:
